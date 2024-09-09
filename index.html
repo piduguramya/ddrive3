@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+        .nav{
+            text-align: center;
+            position: fixed;
+            padding-left: 40%;
+        }
+       .nava{
+        text-decoration: none;
+        text-align: center;
+       } 
+       .part1,.part2,.part3{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 10%;
+        padding-top: 10%;
+        gap: 3%;
+        background-color: rgba(250, 243, 243, 0.7);
+        margin-top: 5%;
+        border-radius: 10px;
+       }
+       .part1a,.part2a,.part3a{
+        padding-top: 10%;
+       }
+       .img1{
+        background-image: url(Screenshot\ 2024-09-09\ 163412.png);
+        background-attachment: fixed;
+        height: 130vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 7%;
+       }
+       .img2{
+        background-image: url(Screenshot\ 2024-09-09\ 164927.png);
+        background-attachment: fixed;
+        height: 130vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 5%;
+       }
+       .img3{
+        background-image: url(Screenshot\ 2024-09-09\ 170240.png);
+        background-attachment: fixed;
+        height: 130vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10%;
+       }
+    </style>
+</head>
+<body style="background-color: yellow;">
+    <!-- nav bar -->
+     <div class="img1">
+     <nav class="nav">
+        <h1>ADORABLE PUPPIES</h1>
+        <div class="nava" style="padding-bottom: 5%;">
+        <a href="#playful PUPPIES" style="text-decoration: none; color: black; font-size: 20px;">playful pups</a>
+        <a href="#sleepy pups" style="text-decoration: none; color: black; font-size: 20px;">sleepy pups</a>
+        <a href="#curious PUPPIES" style="text-decoration: none; color: black; font-size: 20px;">curious pups</a></div>
+     </nav>
+     <div class="part1">
+        <img src="Screenshot 2024-09-09 163412.png" alt="" width="50%" height="50%">
+        <div class="part1a" id="playful PUPPIES">
+        <h1>playful PUPPIES</h1>
+        <p>puppies love to play it shows they learnt about the world</p>
+        </div>
+     </div>
+    </div>
+    <div class="img2">
+    <div class="part2" id="sleepy pups">
+        <div class="part2a">
+            <h1>sleepy pups</h1>
+            <p>puppies love to play it shows they learnt about the world</p>
+            </div>
+        <img src="Screenshot 2024-09-09 164927.png" alt="" width="50%" height="50%">
+     </div>
+    </div>
+    <div class="img3" id="curious PUPPIES">
+        <div class="part3">
+            <img src="Screenshot 2024-09-09 170240.png" alt="" width="50%" height="50%">
+            <div class="part3a">
+            <h1>curious PUPPIES</h1>
+            <p>puppies love to play it shows they learnt about the world</p>
+            </div>
+         </div>
+        </div>
+</body>
+</html>
